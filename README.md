@@ -1,8 +1,7 @@
 # HomeworkCE
-1) реалізувати за допомогою concurrence пожежну частину, тобто є потоки які очікують сигналу,
-і коли поступає сигнал, вони йдуть на виклик.
+1) implement the fire department with the help of concurrence, that is, there are streams that are waiting for the signal, and when the signal arrives, they go to the call. 
+Let there be one fire department, and the streams are two brigades. A signal is a call to the operator. 
 
-Нехай є одна пожежна частина, а потоки -- це дві бригади. Сигнал -- це виклик оператора.
+2) Producer-recipient: one stream sends data, others will receive it and process it.
 
-2) продюсер-отримувач: один потік відправляє дані, інші його отримають і опрацьовують
-3) зробити 5 потоків, кожен потік має генерувати пісні(кожен потік окремий жанр) і ці пісні потрібно зберігати десь щоб всі потоки могли достукатись до них
+3) Make 5 streams, each stream must generate songs (each stream is a separate genre) and these songs need to be stored somewhere so that all streams can reach them
