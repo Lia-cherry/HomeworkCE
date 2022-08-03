@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println(kerrygold.call());
         consumer.run();
+
     }
 
 
